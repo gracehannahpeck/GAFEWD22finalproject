@@ -68,13 +68,14 @@ a {
   margin: 0 auto;
 }
 .logo {
-  font-size: 48px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 600;
 }
+
 
 header {
   background: #1a242f;
-  padding: 25px 0;
+  padding: 5px 0;
   overflow: hidden;
 }
 header .logo {
@@ -84,13 +85,13 @@ header .logo {
 
 header nav {
   float: right;
-  margin-top: 15px;
+  margin-top: 5px;
   color: #fff;
 }
 header nav ul li {
   display: inline-block;
-  margin: 0 0 0 40px;
-  font-size: 24px;
+  margin: 0 0 0 10px;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -119,27 +120,14 @@ header nav ul li a:hover {
   margin: 120px 0 90px;
   font-weight: 600;
 }
-.button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-.blue {
-  background: #033048;
-  color: #fff;
+
+
+#story {
   font-size: 24px;
 }
+
 #benefits {
-  padding: 100px 0 80px;
+  padding: 50px 0 80px;
 }
 h3 {
   color: #033048;
@@ -159,19 +147,7 @@ h3 {
   padding: 70px 0 70px;
   color: #fff;
 }
-blockquote {
-  font-size: 36px;
-  font-weight: 300;
-  font-style: italic;
-  text-align: center;
-  width: 75%;
-  margin: 0 auto;
-}
-blockquote span {
-  font-weight: 600;
-  display: block;
-  font-style: normal;
-}
+
 #main {
   margin-top: 80px;
   color:black;
@@ -228,25 +204,6 @@ blockquote span {
   font-weight: 600;
 }
 
-/*.button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;
-}*/
 
 #sidebar h3 {
   font-size: 32px;
