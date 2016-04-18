@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Nomadico is a music festival held by the Meso Creso community">
+
+		<title>Nomadico Home</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<div class="container">
+		<header>
+			<nav id="topNav">
+				<ul>
+					<li><a href="#"><img src="images/facebook3.png" alt="Facebook logo"></a></li>
+					<li><a href="#"><img src="images/instagram3.png" alt="Instagram logo"></a></li>
+					<li><a href="#"><img src="images/email3.png" alt="Email Icon"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="scroller" class="scroller">
+			<nav>
+				<a href="#home" class="current">1</a>
+				<a href="#question">2</a>
+				<a href="#story">3</a>
+				<a href="#logoPage">4</a>
+			</nav>
+			<section id="home">
+				<div id="slogan">	
+				<h1>Meso Creso presents: Nomadico</h1></br>
+				<p>A story within a story.</br></br>A discovery within a journey.</br></br>A destination within our reach.</p>
+				</div>
+			</section>
+			<section id="question">
+				<div id="questionDiv">
+					<p><span id="farAway">What can you expect in a place that is neither here nor there?</span></br></br>For years, Meso Creso’s flying caravan has roamed from one place to another, traveling through the ancient and modern, through new cultural landscapes and old global soundscapes. Borderless and boundaryless, our caravan is landing soon in an entirely unlikely destination.</p>
+				</div>
+			</section>
+			<section id="story">
+				<div id="articles">
+					<article id="introFestival" class="popUpImage">
+						<p id="introText" class="learnMore hide">A sacred space for learning, healing and centering</br><a href="#">&#8212; learn more &#8212;</a></p>
+					</article>
+					<article id="arts" class="popUpImage">
+						<p id="artsText" class="learnMore hide">Fire dancing</br><a href="#">&#8212; learn more &#8212;</a></p>
+					</article>
+					<article id="music" class="popUpImage">
+						<p id="musicText" class="learnMore hide">A multi-sensory experience</br><a href="#">&#8212; learn more &#8212;</a></p>
+					</article>
+					<article id="queen" class="popUpImage">
+						<p id="queenText" class="learnMore hide">Music and global beats</br><a href="#">&#8212; learn more &#8212;</a></p>
+					</article>
+					<article id="conservation" class="popUpImage">
+						<p id="conservationText" class="learnMore hide">Art installations to engage and play</br><a href="#">&#8212; learn more &#8212;</a></p>
+					</article>
+					<article id="camping" class="popUpImage">
+						<p id="campingText" class="learnMore hide">Camping among friends, old and new</br><a href="#">&#8212; learn more &#8212;</a></p>
+					</article>
+					<div class="clear"></div>
+				</div>
+			</section>
+			<section id="logoPage">
+				<div class="registration">
+					<h2>Come join our caravan!</h2>
+					<form id="registrationForm" novalidate>
+						<div id="errorMessage" class="error hide"></div>
+						<label for="firstname">First Name: </label>
+						<input id="firstname" type="text" name="firstname"placeholder="First Name">
+						<label for="lastname">Last Name: </label>
+						<input id="lastname" type="text" name="lastname"placeholder="Last Name">
+						<label for="emailAddress">Email Address: </label>
+						<input id="email"type="email" name="emailAddress" placeholder="Email">
+						<label for="zipcode">Zipcode: </label>
+						<input id="zipcode" type="zipcode" name="zipcode" placeholder="Zipcode">
+						<label id="reasons" for="checkbox">What are you interested in finding out more about? (Choose All That Apply):</label>
+							<ul>
+								<li>
+									<label><input id="checkbox" type="checkbox" name="reasons" value="Personal">Music</label>
+								</li>
+								<li>
+									<label><input type="checkbox" name="reasons" value="Business">Workshops</label>
+								</li>
+								<li>
+									<label><input type="checkbox" name="reasons" value="Business">Art Grants</label>
+								</li>
+								<li>
+									<label><input type="checkbox" name="reasons" value="Business">Volunteering</label>
+								</li>
+							</ul>
+						<input id="submit" type="submit" value="Submit!">
+						<div id="successMessage" class="success hide"></div>
+					</form>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/index.js"></script>	
+	</body>
+</html>
