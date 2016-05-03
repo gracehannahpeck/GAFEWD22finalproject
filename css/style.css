@@ -158,7 +158,7 @@ header nav ul li {
 }
 
 #logoPage {
-  background-image: url(../images/nomadico_logo2.jpg);
+  background-image: url(../images/blackwhitelogo.png);
 }
 
 
@@ -247,15 +247,15 @@ header nav ul li {
 
 
 #arts {
-  background-image: url(../images/scope.png);
+  background-image: url(../images/queen2.png);
 }
 
 #conservation {
-  background-image: url(../images/tree.png);
+  background-image: url(../images/scope.png);
 }
 
 #camping {
-  background-image: url(../images/tents.jpg);
+  background-image: url(../images/fire_ladies.png);
 }
 
 #queen {
@@ -271,15 +271,15 @@ header nav ul li {
 }
 
 #arts:hover {
-  background-image: url(../images/bw_scope2.png);
+  background-image: url(../images/bw_queen.png);
 }
 
 #conservation:hover {
-  background-image: url(../images/bw_tree.png);
+  background-image: url(../images/bw_scope2.png);
 }
 
 #camping:hover {
-  background-image: url(../images/bw_tents.png);
+  background-image: url(../images/bw_fireladies.png);
 }
 
 #queen:hover {
